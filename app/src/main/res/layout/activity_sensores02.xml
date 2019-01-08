@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sensores02">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SENSORES DE ACELERACIÓN"
+        android:textSize="20dp"
+        android:textColor="#ababab"
+        android:textStyle="bold"
+         />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE X"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/aceleracion_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_X"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE Y"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/aceleracion_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Y"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE Z"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/aceleracion_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Z"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MODULO DE ACELERACION"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/aceleracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACELERACION MAX"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/aceleracion_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_max"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAVEDAD ESTANDAR"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/gravedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravedad_estandar"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+
+
+
+</LinearLayout>
